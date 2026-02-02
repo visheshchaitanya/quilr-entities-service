@@ -1,0 +1,1100 @@
+{
+  "relation_type": "HAS_IDP",
+  "subProduct": "/v1.0/users",
+  "domain": "login.microsoftonline.com",
+  "type": "users",
+  "product": "microsoft.graph",
+  "subscriber": "9cbdf42e-f0b4-4a3e-a774-a39a6b6ccffd",
+  "name": "Active Directory Users Connector",
+  "description": "Azure AD Connector Configuration",
+  "instance_id": "fce6bdf5-8477-47ce-a5f8-d604fbed51ee",
+  "tenant": "5494484a-254e-49d4-8d29-a33112ab722c",
+  "vendor": "Microsoft",
+  "data": {
+    "id": "474b224c-f455-4ad1-9d67-4e4dc32cff4e",
+    "otherMails": [
+      "div.agicha@gmail.com"
+    ],
+    "employeeId": "Qemp007",
+    "employeeType": "Full Time",
+    "displayName": "Divyansh Agicha",
+    "mail": "Divyansh@quilr.ai",
+    "accountEnabled": true,
+    "city": "Rishikesh",
+    "companyName": "Quilr",
+    "employeeHireDate": "2023-11-20T06:00:00Z",
+    "country": "India",
+    "createdDateTime": "2023-11-29T07:13:54Z",
+    "deletedDateTime": null,
+    "businessPhones": [],
+    "department": "Engineering",
+    "employeeLeaveDateTime": null,
+    "givenName": "Divyansh",
+    "jobTitle": "Staff Software Developer",
+    "lastPasswordChangeDateTime": "2023-11-29T07:40:49Z",
+    "mobilePhone": "+91 9927664908",
+    "mailNickname": "Divyansh",
+    "officeLocation": "Pune",
+    "passwordPolicies": "None",
+    "preferredLanguage": null,
+    "proxyAddresses": [
+      "smtp:Divyansh@Quilr.onmicrosoft.com",
+      "SMTP:Divyansh@quilr.ai"
+    ],
+    "securityIdentifier": "S-1-12-1-1196106316-1255273557-1296983965-1325345987",
+    "state": "Uttarakhand",
+    "streetAddress": "177/4 Lane No. 18, Ashutosh Nagar ",
+    "surname": "Agicha",
+    "userPrincipalName": "Divyansh@quilr.ai",
+    "userType": "Member",
+    "passwordProfile": null,
+    "identities": [
+      {
+        "signInType": "userPrincipalName",
+        "issuer": "Quilr.onmicrosoft.com",
+        "issuerAssignedId": "Divyansh@quilr.ai"
+      }
+    ],
+    "manager": [],
+    "registrationDetails": [],
+    "groups": [
+      {
+        "id": "764caf07-db11-43ea-8d3b-f51f0fee8842",
+        "deletedDateTime": null,
+        "classification": null,
+        "createdDateTime": "2024-09-20T11:22:52Z",
+        "creationOptions": [
+          "Team",
+          "ExchangeProvisioningFlags:3552"
+        ],
+        "description": "JENKINS BUILD STATUS && ALERTING FOR SERVICES",
+        "displayName": "BUILD STATUS && ALERTING",
+        "expirationDateTime": null,
+        "groupTypes": [
+          "Unified"
+        ],
+        "isAssignableToRole": null,
+        "mail": "JenkinsJobsbuildstatus@Quilr.io",
+        "mailEnabled": true,
+        "mailNickname": "JenkinsJobsbuildstatus",
+        "membershipRule": null,
+        "membershipRuleProcessingState": null,
+        "onPremisesDomainName": null,
+        "onPremisesLastSyncDateTime": null,
+        "onPremisesNetBiosName": null,
+        "onPremisesSamAccountName": null,
+        "onPremisesSecurityIdentifier": null,
+        "onPremisesSyncEnabled": null,
+        "preferredDataLocation": null,
+        "preferredLanguage": null,
+        "proxyAddresses": [
+          "smtp:JenkinsJobsbuildstatus@Quilr.onmicrosoft.com",
+          "SPO:SPO_6b6560c8-0066-4e07-a4e5-cace3a9411ac@SPO_f6709ce5-b4be-4d43-9001-35867678adb5",
+          "smtp:JenkinsJobsbuildstatusff1@Quilr.onmicrosoft.com",
+          "SMTP:JenkinsJobsbuildstatus@Quilr.io"
+        ],
+        "renewedDateTime": "2024-09-20T11:22:52Z",
+        "resourceBehaviorOptions": [
+          "HideGroupInOutlook",
+          "SubscribeMembersToCalendarEventsDisabled",
+          "WelcomeEmailDisabled"
+        ],
+        "resourceProvisioningOptions": [
+          "Team"
+        ],
+        "securityEnabled": false,
+        "securityIdentifier": "S-1-12-1-1984737031-1139464977-536165261-1116270095",
+        "theme": null,
+        "uniqueName": null,
+        "visibility": "Private",
+        "onPremisesProvisioningErrors": [],
+        "serviceProvisioningErrors": []
+      },
+      {
+        "id": "f6f28a1a-66e5-4e30-a161-7a982f34e966",
+        "deletedDateTime": null,
+        "classification": null,
+        "createdDateTime": "2024-12-16T11:56:19Z",
+        "creationOptions": [
+          "Team",
+          "ExchangeProvisioningFlags:3552"
+        ],
+        "description": "Controls Framework Review",
+        "displayName": "Controls Framework Review",
+        "expirationDateTime": null,
+        "groupTypes": [
+          "Unified"
+        ],
+        "isAssignableToRole": null,
+        "mail": "ControlsFrameworkReview@quilr.ai",
+        "mailEnabled": true,
+        "mailNickname": "ControlsFrameworkReview",
+        "membershipRule": null,
+        "membershipRuleProcessingState": null,
+        "onPremisesDomainName": null,
+        "onPremisesLastSyncDateTime": null,
+        "onPremisesNetBiosName": null,
+        "onPremisesSamAccountName": null,
+        "onPremisesSecurityIdentifier": null,
+        "onPremisesSyncEnabled": null,
+        "preferredDataLocation": null,
+        "preferredLanguage": null,
+        "proxyAddresses": [
+          "smtp:ControlsFrameworkReview@Quilr.onmicrosoft.com",
+          "SPO:SPO_33b36b25-ac6b-4f9e-ad2e-725ae153aee7@SPO_f6709ce5-b4be-4d43-9001-35867678adb5",
+          "smtp:ControlsFrameworkReview57f@Quilr.onmicrosoft.com",
+          "SMTP:ControlsFrameworkReview@quilr.ai"
+        ],
+        "renewedDateTime": "2024-12-16T11:56:19Z",
+        "resourceBehaviorOptions": [
+          "HideGroupInOutlook",
+          "SubscribeMembersToCalendarEventsDisabled",
+          "WelcomeEmailDisabled"
+        ],
+        "resourceProvisioningOptions": [
+          "Team"
+        ],
+        "securityEnabled": false,
+        "securityIdentifier": "S-1-12-1-4143090202-1311794917-2558157217-1726559279",
+        "theme": null,
+        "uniqueName": null,
+        "visibility": "Public",
+        "onPremisesProvisioningErrors": [],
+        "serviceProvisioningErrors": []
+      },
+      {
+        "id": "9e4a742a-4b56-4558-b236-b7d5bd1a5c84",
+        "deletedDateTime": null,
+        "classification": null,
+        "createdDateTime": "2023-12-22T16:48:46Z",
+        "creationOptions": [
+          "Team",
+          "ExchangeProvisioningFlags:3552"
+        ],
+        "description": "India Team",
+        "displayName": "India Team",
+        "expirationDateTime": null,
+        "groupTypes": [
+          "Unified"
+        ],
+        "isAssignableToRole": null,
+        "mail": "IndiaTeam@Quilr.io",
+        "mailEnabled": true,
+        "mailNickname": "IndiaTeam",
+        "membershipRule": null,
+        "membershipRuleProcessingState": null,
+        "onPremisesDomainName": null,
+        "onPremisesLastSyncDateTime": null,
+        "onPremisesNetBiosName": null,
+        "onPremisesSamAccountName": null,
+        "onPremisesSecurityIdentifier": null,
+        "onPremisesSyncEnabled": null,
+        "preferredDataLocation": null,
+        "preferredLanguage": null,
+        "proxyAddresses": [
+          "SPO:SPO_6b4e389f-4359-4e3b-9e75-5475e8b90072@SPO_f6709ce5-b4be-4d43-9001-35867678adb5",
+          "smtp:IndiaTeam@Quilr.onmicrosoft.com",
+          "SMTP:IndiaTeam@Quilr.io"
+        ],
+        "renewedDateTime": "2023-12-22T16:48:46Z",
+        "resourceBehaviorOptions": [
+          "HideGroupInOutlook",
+          "SubscribeMembersToCalendarEventsDisabled",
+          "WelcomeEmailDisabled"
+        ],
+        "resourceProvisioningOptions": [
+          "Team"
+        ],
+        "securityEnabled": false,
+        "securityIdentifier": "S-1-12-1-2655679530-1163414358-3585554098-2220628669",
+        "theme": null,
+        "uniqueName": null,
+        "visibility": "Public",
+        "onPremisesProvisioningErrors": [],
+        "serviceProvisioningErrors": []
+      },
+      {
+        "id": "51c4cf2b-a95f-40de-a8a0-6104ad1150d3",
+        "deletedDateTime": null,
+        "classification": null,
+        "createdDateTime": "2023-11-15T03:58:49Z",
+        "creationOptions": [
+          "Team",
+          "ExchangeProvisioningFlags:3552"
+        ],
+        "description": "Development",
+        "displayName": "Development",
+        "expirationDateTime": null,
+        "groupTypes": [
+          "Unified"
+        ],
+        "isAssignableToRole": null,
+        "mail": "Development@Quilr.io",
+        "mailEnabled": true,
+        "mailNickname": "Development",
+        "membershipRule": null,
+        "membershipRuleProcessingState": null,
+        "onPremisesDomainName": null,
+        "onPremisesLastSyncDateTime": null,
+        "onPremisesNetBiosName": null,
+        "onPremisesSamAccountName": null,
+        "onPremisesSecurityIdentifier": null,
+        "onPremisesSyncEnabled": null,
+        "preferredDataLocation": null,
+        "preferredLanguage": null,
+        "proxyAddresses": [
+          "smtp:Development@Quilr.onmicrosoft.com",
+          "SPO:SPO_25c59648-cc84-44a6-9910-8ae2ea34bc76@SPO_f6709ce5-b4be-4d43-9001-35867678adb5",
+          "smtp:Development925@Quilr.onmicrosoft.com",
+          "SMTP:Development@Quilr.io"
+        ],
+        "renewedDateTime": "2023-11-15T03:58:49Z",
+        "resourceBehaviorOptions": [
+          "HideGroupInOutlook",
+          "SubscribeMembersToCalendarEventsDisabled",
+          "WelcomeEmailDisabled"
+        ],
+        "resourceProvisioningOptions": [
+          "Team"
+        ],
+        "securityEnabled": false,
+        "securityIdentifier": "S-1-12-1-1371852587-1088334175-73506984-3545239981",
+        "theme": null,
+        "uniqueName": null,
+        "visibility": "Public",
+        "onPremisesProvisioningErrors": [],
+        "serviceProvisioningErrors": []
+      },
+      {
+        "id": "446ba331-9bcb-4b74-9cc9-6061ce995380",
+        "deletedDateTime": null,
+        "classification": null,
+        "createdDateTime": "2024-01-07T06:54:51Z",
+        "creationOptions": [
+          "Team",
+          "ExchangeProvisioningFlags:3552"
+        ],
+        "description": "This team receives notifications from jenkins regards to builds, deployments and workflows.",
+        "displayName": "Jenkins SaaS Notifications",
+        "expirationDateTime": null,
+        "groupTypes": [
+          "Unified"
+        ],
+        "isAssignableToRole": null,
+        "mail": "JenkinsSaaSNotifications@Quilr.io",
+        "mailEnabled": true,
+        "mailNickname": "JenkinsSaaSNotifications",
+        "membershipRule": null,
+        "membershipRuleProcessingState": null,
+        "onPremisesDomainName": null,
+        "onPremisesLastSyncDateTime": null,
+        "onPremisesNetBiosName": null,
+        "onPremisesSamAccountName": null,
+        "onPremisesSecurityIdentifier": null,
+        "onPremisesSyncEnabled": null,
+        "preferredDataLocation": null,
+        "preferredLanguage": null,
+        "proxyAddresses": [
+          "SPO:SPO_2d1a79ef-64a6-4368-96f5-90ccfa84b402@SPO_f6709ce5-b4be-4d43-9001-35867678adb5",
+          "smtp:JenkinsSaaSNotifications@Quilr.onmicrosoft.com",
+          "SMTP:JenkinsSaaSNotifications@Quilr.io"
+        ],
+        "renewedDateTime": "2024-01-07T06:54:51Z",
+        "resourceBehaviorOptions": [
+          "HideGroupInOutlook",
+          "SubscribeMembersToCalendarEventsDisabled",
+          "WelcomeEmailDisabled"
+        ],
+        "resourceProvisioningOptions": [
+          "Team"
+        ],
+        "securityEnabled": false,
+        "securityIdentifier": "S-1-12-1-1147904817-1265933259-1633733020-2152962510",
+        "theme": null,
+        "uniqueName": null,
+        "visibility": "Private",
+        "onPremisesProvisioningErrors": [],
+        "serviceProvisioningErrors": []
+      },
+      {
+        "id": "bc274043-a524-4078-b6c5-63eaa49ca35e",
+        "deletedDateTime": null,
+        "classification": null,
+        "createdDateTime": "2025-01-28T08:08:41Z",
+        "creationOptions": [
+          "Team",
+          "ExchangeProvisioningFlags:3552"
+        ],
+        "description": "DLP Controls & Smartgroups",
+        "displayName": "DLP Controls & Smartgroups",
+        "expirationDateTime": null,
+        "groupTypes": [
+          "Unified"
+        ],
+        "isAssignableToRole": null,
+        "mail": "DLPControlsSmartgroups@quilr.ai",
+        "mailEnabled": true,
+        "mailNickname": "DLPControlsSmartgroups",
+        "membershipRule": null,
+        "membershipRuleProcessingState": null,
+        "onPremisesDomainName": null,
+        "onPremisesLastSyncDateTime": null,
+        "onPremisesNetBiosName": null,
+        "onPremisesSamAccountName": null,
+        "onPremisesSecurityIdentifier": null,
+        "onPremisesSyncEnabled": null,
+        "preferredDataLocation": null,
+        "preferredLanguage": null,
+        "proxyAddresses": [
+          "smtp:DLPControlsSmartgroups@Quilr.onmicrosoft.com",
+          "smtp:DLPControlsSmartgroups2bb@Quilr.onmicrosoft.com",
+          "SPO:SPO_22f1d5c3-fbd0-429d-a951-0fd422d9da7d@SPO_f6709ce5-b4be-4d43-9001-35867678adb5",
+          "smtp:DLPControlsSmartgroups2bbe8c@Quilr.onmicrosoft.com",
+          "SMTP:DLPControlsSmartgroups@quilr.ai"
+        ],
+        "renewedDateTime": "2025-01-28T08:08:41Z",
+        "resourceBehaviorOptions": [
+          "HideGroupInOutlook",
+          "SubscribeMembersToCalendarEventsDisabled",
+          "WelcomeEmailDisabled"
+        ],
+        "resourceProvisioningOptions": [
+          "Team"
+        ],
+        "securityEnabled": false,
+        "securityIdentifier": "S-1-12-1-3156688963-1081648420-3932407222-1587780772",
+        "theme": null,
+        "uniqueName": null,
+        "visibility": "Private",
+        "onPremisesProvisioningErrors": [],
+        "serviceProvisioningErrors": []
+      },
+      {
+        "id": "37a5bc43-100d-48c0-a5e6-9cfc9840f8ad",
+        "deletedDateTime": null,
+        "classification": null,
+        "createdDateTime": "2025-06-10T08:20:10Z",
+        "creationOptions": [],
+        "description": null,
+        "displayName": "AWS-PREPROD-WINDOWS",
+        "expirationDateTime": null,
+        "groupTypes": [],
+        "isAssignableToRole": null,
+        "mail": null,
+        "mailEnabled": false,
+        "mailNickname": "320632fb-b",
+        "membershipRule": null,
+        "membershipRuleProcessingState": null,
+        "onPremisesDomainName": null,
+        "onPremisesLastSyncDateTime": null,
+        "onPremisesNetBiosName": null,
+        "onPremisesSamAccountName": null,
+        "onPremisesSecurityIdentifier": null,
+        "onPremisesSyncEnabled": null,
+        "preferredDataLocation": null,
+        "preferredLanguage": null,
+        "proxyAddresses": [],
+        "renewedDateTime": "2025-06-10T08:20:10Z",
+        "resourceBehaviorOptions": [],
+        "resourceProvisioningOptions": [],
+        "securityEnabled": true,
+        "securityIdentifier": "S-1-12-1-933608515-1220546573-4238141093-2918727832",
+        "theme": null,
+        "uniqueName": null,
+        "visibility": null,
+        "onPremisesProvisioningErrors": [],
+        "serviceProvisioningErrors": []
+      },
+      {
+        "id": "1d208e6e-50c0-4443-b07f-384ac8c4f77e",
+        "deletedDateTime": null,
+        "classification": null,
+        "createdDateTime": "2024-10-04T10:24:58Z",
+        "creationOptions": [
+          "ExchangeProvisioningFlags:2020"
+        ],
+        "description": "ALERTING FOR THE PRODUCTION SERVICES",
+        "displayName": "QUILR_ALERTING",
+        "expirationDateTime": null,
+        "groupTypes": [
+          "Unified"
+        ],
+        "isAssignableToRole": null,
+        "mail": "quilr_alerting@Quilr.io",
+        "mailEnabled": true,
+        "mailNickname": "quilr_alerting",
+        "membershipRule": null,
+        "membershipRuleProcessingState": null,
+        "onPremisesDomainName": null,
+        "onPremisesLastSyncDateTime": null,
+        "onPremisesNetBiosName": null,
+        "onPremisesSamAccountName": null,
+        "onPremisesSecurityIdentifier": null,
+        "onPremisesSyncEnabled": null,
+        "preferredDataLocation": null,
+        "preferredLanguage": null,
+        "proxyAddresses": [
+          "SPO:SPO_22c54d4e-58fe-4e7b-b038-aa22386b44f1@SPO_f6709ce5-b4be-4d43-9001-35867678adb5",
+          "SMTP:quilr_alerting@Quilr.io",
+          "smtp:quilr_alerting@Quilr.onmicrosoft.com"
+        ],
+        "renewedDateTime": "2024-10-04T10:24:58Z",
+        "resourceBehaviorOptions": [
+          "SkipExchangeInstantOn"
+        ],
+        "resourceProvisioningOptions": [],
+        "securityEnabled": false,
+        "securityIdentifier": "S-1-12-1-488672878-1145262272-1245216688-2130166984",
+        "theme": null,
+        "uniqueName": null,
+        "visibility": "Private",
+        "onPremisesProvisioningErrors": [],
+        "serviceProvisioningErrors": []
+      },
+      {
+        "id": "b027ca74-fc9d-49d3-ac30-afcbed617e88",
+        "deletedDateTime": null,
+        "classification": null,
+        "createdDateTime": "2023-09-14T16:02:59Z",
+        "creationOptions": [],
+        "description": null,
+        "displayName": "All Users",
+        "expirationDateTime": null,
+        "groupTypes": [
+          "DynamicMembership"
+        ],
+        "isAssignableToRole": null,
+        "mail": null,
+        "mailEnabled": false,
+        "mailNickname": "d22f9195-f7a3-4f43-8e1c-fe686856442f",
+        "membershipRule": "All Users",
+        "membershipRuleProcessingState": "On",
+        "onPremisesDomainName": null,
+        "onPremisesLastSyncDateTime": null,
+        "onPremisesNetBiosName": null,
+        "onPremisesSamAccountName": null,
+        "onPremisesSecurityIdentifier": null,
+        "onPremisesSyncEnabled": null,
+        "preferredDataLocation": null,
+        "preferredLanguage": null,
+        "proxyAddresses": [],
+        "renewedDateTime": "2023-09-14T16:02:59Z",
+        "resourceBehaviorOptions": [],
+        "resourceProvisioningOptions": [],
+        "securityEnabled": true,
+        "securityIdentifier": "S-1-12-1-2955397748-1238629533-3417256108-2289983981",
+        "theme": null,
+        "uniqueName": null,
+        "visibility": null,
+        "onPremisesProvisioningErrors": [],
+        "serviceProvisioningErrors": []
+      },
+      {
+        "id": "c4f15b76-3c13-4ad0-8ef7-143add48c7d2",
+        "deletedDateTime": null,
+        "classification": null,
+        "createdDateTime": "2025-01-28T08:15:44Z",
+        "creationOptions": [
+          "Team",
+          "ExchangeProvisioningFlags:3552"
+        ],
+        "description": "SproutSocial Deployment",
+        "displayName": "SproutSocial Deployment",
+        "expirationDateTime": null,
+        "groupTypes": [
+          "Unified"
+        ],
+        "isAssignableToRole": null,
+        "mail": "SproutSocialDeployment@quilr.ai",
+        "mailEnabled": true,
+        "mailNickname": "SproutSocialDeployment",
+        "membershipRule": null,
+        "membershipRuleProcessingState": null,
+        "onPremisesDomainName": null,
+        "onPremisesLastSyncDateTime": null,
+        "onPremisesNetBiosName": null,
+        "onPremisesSamAccountName": null,
+        "onPremisesSecurityIdentifier": null,
+        "onPremisesSyncEnabled": null,
+        "preferredDataLocation": null,
+        "preferredLanguage": null,
+        "proxyAddresses": [
+          "smtp:SproutSocialDeployment@Quilr.onmicrosoft.com",
+          "SPO:SPO_b1785cda-edc1-490f-b52c-ad0770deba6c@SPO_f6709ce5-b4be-4d43-9001-35867678adb5",
+          "SMTP:SproutSocialDeployment@quilr.ai"
+        ],
+        "renewedDateTime": "2025-01-28T08:15:44Z",
+        "resourceBehaviorOptions": [
+          "HideGroupInOutlook",
+          "SubscribeMembersToCalendarEventsDisabled",
+          "WelcomeEmailDisabled"
+        ],
+        "resourceProvisioningOptions": [
+          "Team"
+        ],
+        "securityEnabled": false,
+        "securityIdentifier": "S-1-12-1-3304151926-1255160851-974452622-3536275677",
+        "theme": null,
+        "uniqueName": null,
+        "visibility": "Private",
+        "onPremisesProvisioningErrors": [],
+        "serviceProvisioningErrors": []
+      },
+      {
+        "id": "a652fd76-e88f-49c2-9c4d-b4a9f6552efe",
+        "deletedDateTime": null,
+        "classification": null,
+        "createdDateTime": "2024-04-25T01:53:18Z",
+        "creationOptions": [
+          "Team",
+          "ExchangeProvisioningFlags:3552"
+        ],
+        "description": "Hi Team, We're getting a SOC 2 compliance certification and as part of that i'll be needing your help with a lot of different pieces of information. I'll keep posting what's needed on this group. Please help and do the needful. thankyou!",
+        "displayName": "SOC 2",
+        "expirationDateTime": null,
+        "groupTypes": [
+          "Unified"
+        ],
+        "isAssignableToRole": null,
+        "mail": "SOC2@Quilr.io",
+        "mailEnabled": true,
+        "mailNickname": "SOC2",
+        "membershipRule": null,
+        "membershipRuleProcessingState": null,
+        "onPremisesDomainName": null,
+        "onPremisesLastSyncDateTime": null,
+        "onPremisesNetBiosName": null,
+        "onPremisesSamAccountName": null,
+        "onPremisesSecurityIdentifier": null,
+        "onPremisesSyncEnabled": null,
+        "preferredDataLocation": null,
+        "preferredLanguage": null,
+        "proxyAddresses": [
+          "SPO:SPO_a676fa42-5c3f-49e0-b6a2-a3907a9feded@SPO_f6709ce5-b4be-4d43-9001-35867678adb5",
+          "smtp:SOC2@Quilr.onmicrosoft.com",
+          "SMTP:SOC2@Quilr.io"
+        ],
+        "renewedDateTime": "2024-04-25T01:53:18Z",
+        "resourceBehaviorOptions": [
+          "HideGroupInOutlook",
+          "SubscribeMembersToCalendarEventsDisabled",
+          "WelcomeEmailDisabled"
+        ],
+        "resourceProvisioningOptions": [
+          "Team"
+        ],
+        "securityEnabled": false,
+        "securityIdentifier": "S-1-12-1-2790456694-1237510287-2847165852-4264449526",
+        "theme": null,
+        "uniqueName": null,
+        "visibility": "Private",
+        "onPremisesProvisioningErrors": [],
+        "serviceProvisioningErrors": []
+      },
+      {
+        "id": "cd32f97a-d32f-496a-a008-a1bcad1569a6",
+        "deletedDateTime": null,
+        "classification": null,
+        "createdDateTime": "2025-01-16T05:52:20Z",
+        "creationOptions": [
+          "Team",
+          "ExchangeProvisioningFlags:3552"
+        ],
+        "description": "VEG Virtual War Room",
+        "displayName": "VEG Virtual War Room",
+        "expirationDateTime": null,
+        "groupTypes": [
+          "Unified"
+        ],
+        "isAssignableToRole": null,
+        "mail": "VEGVirtualWarRoom@quilr.ai",
+        "mailEnabled": true,
+        "mailNickname": "VEGVirtualWarRoom",
+        "membershipRule": null,
+        "membershipRuleProcessingState": null,
+        "onPremisesDomainName": null,
+        "onPremisesLastSyncDateTime": null,
+        "onPremisesNetBiosName": null,
+        "onPremisesSamAccountName": null,
+        "onPremisesSecurityIdentifier": null,
+        "onPremisesSyncEnabled": null,
+        "preferredDataLocation": null,
+        "preferredLanguage": null,
+        "proxyAddresses": [
+          "smtp:VEGVirtualWarRoom@Quilr.onmicrosoft.com",
+          "SPO:SPO_7aaf3a20-cdb2-43fe-95e2-72d25ddc8269@SPO_f6709ce5-b4be-4d43-9001-35867678adb5",
+          "smtp:VEGVirtualWarRoom479@Quilr.onmicrosoft.com",
+          "SMTP:VEGVirtualWarRoom@quilr.ai"
+        ],
+        "renewedDateTime": "2025-01-16T05:52:20Z",
+        "resourceBehaviorOptions": [
+          "HideGroupInOutlook",
+          "SubscribeMembersToCalendarEventsDisabled",
+          "WelcomeEmailDisabled"
+        ],
+        "resourceProvisioningOptions": [
+          "Team"
+        ],
+        "securityEnabled": false,
+        "securityIdentifier": "S-1-12-1-3442669946-1231737647-3164670112-2791904685",
+        "theme": null,
+        "uniqueName": null,
+        "visibility": "Public",
+        "onPremisesProvisioningErrors": [],
+        "serviceProvisioningErrors": []
+      },
+      {
+        "id": "fd069994-2c5c-4308-82b5-b5c52e255ff7",
+        "deletedDateTime": null,
+        "classification": null,
+        "createdDateTime": "2025-02-05T06:31:37Z",
+        "creationOptions": [
+          "Team",
+          "ExchangeProvisioningFlags:3552"
+        ],
+        "description": "Plan for today and the week\nIdentity Risks\nAI Risks\nDevice Risks + two-way comms\nSaaS Risks\nFix the when this happens queries for all postures\nSlack Integration\nGoogle IdP Integration\nGoogle Hangout Integration",
+        "displayName": "Frontend-Backend War Room",
+        "expirationDateTime": null,
+        "groupTypes": [
+          "Unified"
+        ],
+        "isAssignableToRole": null,
+        "mail": "Frontend-BackendWarRoom@quilr.ai",
+        "mailEnabled": true,
+        "mailNickname": "Frontend-BackendWarRoom",
+        "membershipRule": null,
+        "membershipRuleProcessingState": null,
+        "onPremisesDomainName": null,
+        "onPremisesLastSyncDateTime": null,
+        "onPremisesNetBiosName": null,
+        "onPremisesSamAccountName": null,
+        "onPremisesSecurityIdentifier": null,
+        "onPremisesSyncEnabled": null,
+        "preferredDataLocation": null,
+        "preferredLanguage": null,
+        "proxyAddresses": [
+          "SPO:SPO_230a0160-f7b3-4781-b9d4-87849a907f2c@SPO_f6709ce5-b4be-4d43-9001-35867678adb5",
+          "smtp:Frontend-BackendWarRoom@Quilr.onmicrosoft.com",
+          "SMTP:Frontend-BackendWarRoom@quilr.ai"
+        ],
+        "renewedDateTime": "2025-02-05T06:31:37Z",
+        "resourceBehaviorOptions": [
+          "HideGroupInOutlook",
+          "SubscribeMembersToCalendarEventsDisabled",
+          "WelcomeEmailDisabled"
+        ],
+        "resourceProvisioningOptions": [
+          "Team"
+        ],
+        "securityEnabled": false,
+        "securityIdentifier": "S-1-12-1-4245068180-1124609116-3317020034-4150207790",
+        "theme": null,
+        "uniqueName": null,
+        "visibility": "Private",
+        "onPremisesProvisioningErrors": [],
+        "serviceProvisioningErrors": []
+      },
+      {
+        "id": "64aa1d96-374f-4490-9017-74c6a02c1375",
+        "deletedDateTime": null,
+        "classification": null,
+        "createdDateTime": "2023-08-07T15:58:10Z",
+        "creationOptions": [
+          "Team",
+          "ExchangeProvisioningFlags:3552"
+        ],
+        "description": "Quilr",
+        "displayName": "Quilr",
+        "expirationDateTime": null,
+        "groupTypes": [
+          "Unified"
+        ],
+        "isAssignableToRole": null,
+        "mail": "Quilr@Quilr.onmicrosoft.com",
+        "mailEnabled": true,
+        "mailNickname": "Quilr",
+        "membershipRule": null,
+        "membershipRuleProcessingState": null,
+        "onPremisesDomainName": null,
+        "onPremisesLastSyncDateTime": null,
+        "onPremisesNetBiosName": null,
+        "onPremisesSamAccountName": null,
+        "onPremisesSecurityIdentifier": null,
+        "onPremisesSyncEnabled": null,
+        "preferredDataLocation": null,
+        "preferredLanguage": null,
+        "proxyAddresses": [
+          "SPO:SPO_aa823339-0eeb-46d2-8734-ae5180940685@SPO_f6709ce5-b4be-4d43-9001-35867678adb5",
+          "SMTP:Quilr@Quilr.onmicrosoft.com"
+        ],
+        "renewedDateTime": "2023-08-07T15:58:10Z",
+        "resourceBehaviorOptions": [
+          "HideGroupInOutlook",
+          "SubscribeMembersToCalendarEventsDisabled",
+          "WelcomeEmailDisabled"
+        ],
+        "resourceProvisioningOptions": [
+          "Team"
+        ],
+        "securityEnabled": false,
+        "securityIdentifier": "S-1-12-1-1688870294-1150302031-3329496976-1964190880",
+        "theme": null,
+        "uniqueName": null,
+        "visibility": "Public",
+        "onPremisesProvisioningErrors": [],
+        "serviceProvisioningErrors": []
+      },
+      {
+        "id": "8149a89d-00d3-4523-88b1-e2b85764df68",
+        "deletedDateTime": null,
+        "classification": null,
+        "createdDateTime": "2025-01-20T10:18:49Z",
+        "creationOptions": [
+          "Team",
+          "ExchangeProvisioningFlags:3552"
+        ],
+        "description": "Jan 19 onwards - VEG Controls & BE Testing",
+        "displayName": "Jan 19 onwards - VEG Controls & BE Testing",
+        "expirationDateTime": null,
+        "groupTypes": [
+          "Unified"
+        ],
+        "isAssignableToRole": null,
+        "mail": "Jan19onwards-VEGControlsBETesting@quilr.ai",
+        "mailEnabled": true,
+        "mailNickname": "Jan19onwards-VEGControlsBETesting",
+        "membershipRule": null,
+        "membershipRuleProcessingState": null,
+        "onPremisesDomainName": null,
+        "onPremisesLastSyncDateTime": null,
+        "onPremisesNetBiosName": null,
+        "onPremisesSamAccountName": null,
+        "onPremisesSecurityIdentifier": null,
+        "onPremisesSyncEnabled": null,
+        "preferredDataLocation": null,
+        "preferredLanguage": null,
+        "proxyAddresses": [
+          "smtp:Jan19onwards-VEGControlsBETesting@Quilr.onmicrosoft.com",
+          "SPO:SPO_87ae48e8-b0f1-4a1d-b93b-087641b90061@SPO_f6709ce5-b4be-4d43-9001-35867678adb5",
+          "smtp:Jan19onwards-VEGControlsBETestingd9e@Quilr.onmicrosoft.com",
+          "SMTP:Jan19onwards-VEGControlsBETesting@quilr.ai"
+        ],
+        "renewedDateTime": "2025-01-20T10:18:49Z",
+        "resourceBehaviorOptions": [
+          "HideGroupInOutlook",
+          "SubscribeMembersToCalendarEventsDisabled",
+          "WelcomeEmailDisabled"
+        ],
+        "resourceProvisioningOptions": [
+          "Team"
+        ],
+        "securityEnabled": false,
+        "securityIdentifier": "S-1-12-1-2169088157-1159921875-3101864328-1759470679",
+        "theme": null,
+        "uniqueName": null,
+        "visibility": "Private",
+        "onPremisesProvisioningErrors": [],
+        "serviceProvisioningErrors": []
+      },
+      {
+        "id": "84e946ab-a2e6-4d07-b888-1e0f2874fd8b",
+        "deletedDateTime": null,
+        "classification": null,
+        "createdDateTime": "2026-01-16T09:08:34Z",
+        "creationOptions": [
+          "Team",
+          "ExchangeProvisioningFlags:3552"
+        ],
+        "description": "Quilr All",
+        "displayName": "Quilr All",
+        "expirationDateTime": null,
+        "groupTypes": [
+          "Unified"
+        ],
+        "isAssignableToRole": null,
+        "mail": "QuilrAll@quilr.ai",
+        "mailEnabled": true,
+        "mailNickname": "QuilrAll",
+        "membershipRule": null,
+        "membershipRuleProcessingState": null,
+        "onPremisesDomainName": null,
+        "onPremisesLastSyncDateTime": null,
+        "onPremisesNetBiosName": null,
+        "onPremisesSamAccountName": null,
+        "onPremisesSecurityIdentifier": null,
+        "onPremisesSyncEnabled": null,
+        "preferredDataLocation": null,
+        "preferredLanguage": null,
+        "proxyAddresses": [
+          "SMTP:QuilrAll@quilr.ai",
+          "smtp:QuilrAll@Quilr.onmicrosoft.com",
+          "SPO:SPO_3cba49c9-ec87-473b-b9e9-c5f885acb6ac@SPO_f6709ce5-b4be-4d43-9001-35867678adb5"
+        ],
+        "renewedDateTime": "2026-01-16T09:08:34Z",
+        "resourceBehaviorOptions": [
+          "HideGroupInOutlook",
+          "SubscribeMembersToCalendarEventsDisabled",
+          "WelcomeEmailDisabled"
+        ],
+        "resourceProvisioningOptions": [
+          "Team"
+        ],
+        "securityEnabled": false,
+        "securityIdentifier": "S-1-12-1-2229880491-1292346086-253659320-2348643368",
+        "theme": null,
+        "uniqueName": null,
+        "visibility": "Public",
+        "onPremisesProvisioningErrors": [],
+        "serviceProvisioningErrors": []
+      },
+      {
+        "id": "36a19ec5-7bd3-45e3-a347-b3d49ec15011",
+        "deletedDateTime": null,
+        "classification": null,
+        "createdDateTime": "2025-05-01T11:25:32Z",
+        "creationOptions": [],
+        "description": null,
+        "displayName": "Quilr Windows Edge",
+        "expirationDateTime": null,
+        "groupTypes": [],
+        "isAssignableToRole": null,
+        "mail": null,
+        "mailEnabled": false,
+        "mailNickname": "52e77fde-d",
+        "membershipRule": null,
+        "membershipRuleProcessingState": null,
+        "onPremisesDomainName": null,
+        "onPremisesLastSyncDateTime": null,
+        "onPremisesNetBiosName": null,
+        "onPremisesSamAccountName": null,
+        "onPremisesSecurityIdentifier": null,
+        "onPremisesSyncEnabled": null,
+        "preferredDataLocation": null,
+        "preferredLanguage": null,
+        "proxyAddresses": [],
+        "renewedDateTime": "2025-05-01T11:25:32Z",
+        "resourceBehaviorOptions": [],
+        "resourceProvisioningOptions": [],
+        "securityEnabled": true,
+        "securityIdentifier": "S-1-12-1-916561605-1172536275-3568519075-290505118",
+        "theme": null,
+        "uniqueName": null,
+        "visibility": null,
+        "onPremisesProvisioningErrors": [],
+        "serviceProvisioningErrors": []
+      },
+      {
+        "id": "799d78cc-42c9-4ff0-8e6b-7f0985ccd372",
+        "deletedDateTime": null,
+        "classification": null,
+        "createdDateTime": "2025-10-07T15:36:34Z",
+        "creationOptions": [
+          "Team",
+          "ExchangeProvisioningFlags:3552"
+        ],
+        "description": "Sentara Support",
+        "displayName": "Sentara Support",
+        "expirationDateTime": null,
+        "groupTypes": [
+          "Unified"
+        ],
+        "isAssignableToRole": null,
+        "mail": "SentaraSupport@quilr.ai",
+        "mailEnabled": true,
+        "mailNickname": "SentaraSupport",
+        "membershipRule": null,
+        "membershipRuleProcessingState": null,
+        "onPremisesDomainName": null,
+        "onPremisesLastSyncDateTime": null,
+        "onPremisesNetBiosName": null,
+        "onPremisesSamAccountName": null,
+        "onPremisesSecurityIdentifier": null,
+        "onPremisesSyncEnabled": null,
+        "preferredDataLocation": null,
+        "preferredLanguage": null,
+        "proxyAddresses": [
+          "SPO:SPO_e2f4b355-b196-49ba-9b38-238f549f7c8b@SPO_f6709ce5-b4be-4d43-9001-35867678adb5",
+          "smtp:SentaraSupport8c9@Quilr.onmicrosoft.com",
+          "smtp:SentaraSupport@Quilr.onmicrosoft.com",
+          "SMTP:SentaraSupport@quilr.ai"
+        ],
+        "renewedDateTime": "2025-10-07T15:36:34Z",
+        "resourceBehaviorOptions": [
+          "HideGroupInOutlook",
+          "SubscribeMembersToCalendarEventsDisabled",
+          "WelcomeEmailDisabled"
+        ],
+        "resourceProvisioningOptions": [
+          "Team"
+        ],
+        "securityEnabled": false,
+        "securityIdentifier": "S-1-12-1-2040363212-1341145801-159345550-1926483077",
+        "theme": null,
+        "uniqueName": null,
+        "visibility": "Private",
+        "onPremisesProvisioningErrors": [],
+        "serviceProvisioningErrors": []
+      },
+      {
+        "id": "ecf745e6-79fe-4dc1-a75d-eeb354c17113",
+        "deletedDateTime": null,
+        "classification": null,
+        "createdDateTime": "2025-01-28T07:34:09Z",
+        "creationOptions": [
+          "Team",
+          "ExchangeProvisioningFlags:3552"
+        ],
+        "description": "Spotnana",
+        "displayName": "Spotnana",
+        "expirationDateTime": null,
+        "groupTypes": [
+          "Unified"
+        ],
+        "isAssignableToRole": null,
+        "mail": "Spotnana@quilr.ai",
+        "mailEnabled": true,
+        "mailNickname": "Spotnana",
+        "membershipRule": null,
+        "membershipRuleProcessingState": null,
+        "onPremisesDomainName": null,
+        "onPremisesLastSyncDateTime": null,
+        "onPremisesNetBiosName": null,
+        "onPremisesSamAccountName": null,
+        "onPremisesSecurityIdentifier": null,
+        "onPremisesSyncEnabled": null,
+        "preferredDataLocation": null,
+        "preferredLanguage": null,
+        "proxyAddresses": [
+          "smtp:Spotnana@Quilr.onmicrosoft.com",
+          "smtp:Spotnana059@Quilr.onmicrosoft.com",
+          "smtp:Spotnana0594c2@Quilr.onmicrosoft.com",
+          "SPO:SPO_5a3e2d50-1e40-4d1a-922f-4121db0deabe@SPO_f6709ce5-b4be-4d43-9001-35867678adb5",
+          "SMTP:Spotnana@quilr.ai"
+        ],
+        "renewedDateTime": "2025-01-28T07:34:09Z",
+        "resourceBehaviorOptions": [
+          "HideGroupInOutlook",
+          "SubscribeMembersToCalendarEventsDisabled",
+          "WelcomeEmailDisabled"
+        ],
+        "resourceProvisioningOptions": [
+          "Team"
+        ],
+        "securityEnabled": false,
+        "securityIdentifier": "S-1-12-1-3975628262-1304525310-3018743207-326222164",
+        "theme": null,
+        "uniqueName": null,
+        "visibility": "Private",
+        "onPremisesProvisioningErrors": [],
+        "serviceProvisioningErrors": []
+      },
+      {
+        "id": "ea769ee6-fb03-4a5a-9ee8-43b25913359c",
+        "deletedDateTime": null,
+        "classification": null,
+        "createdDateTime": "2024-08-13T19:55:29Z",
+        "creationOptions": [],
+        "description": "Quilr_all_employees",
+        "displayName": "Quilr_all_employees",
+        "expirationDateTime": null,
+        "groupTypes": [
+          "Unified"
+        ],
+        "isAssignableToRole": null,
+        "mail": "Quilr_all_employees@Quilr.io",
+        "mailEnabled": true,
+        "mailNickname": "Quilr_all_employees",
+        "membershipRule": null,
+        "membershipRuleProcessingState": null,
+        "onPremisesDomainName": null,
+        "onPremisesLastSyncDateTime": null,
+        "onPremisesNetBiosName": null,
+        "onPremisesSamAccountName": null,
+        "onPremisesSecurityIdentifier": null,
+        "onPremisesSyncEnabled": null,
+        "preferredDataLocation": null,
+        "preferredLanguage": null,
+        "proxyAddresses": [
+          "SPO:SPO_52d1db5c-4c12-4789-b387-2d9beaf44ed0@SPO_f6709ce5-b4be-4d43-9001-35867678adb5",
+          "SMTP:Quilr_all_employees@Quilr.io",
+          "smtp:Quilr_all_employees@Quilr.onmicrosoft.com"
+        ],
+        "renewedDateTime": "2024-08-13T19:55:29Z",
+        "resourceBehaviorOptions": [],
+        "resourceProvisioningOptions": [],
+        "securityEnabled": false,
+        "securityIdentifier": "S-1-12-1-3933642470-1247476483-2990794910-2620724057",
+        "theme": null,
+        "uniqueName": null,
+        "visibility": "Private",
+        "onPremisesProvisioningErrors": [],
+        "serviceProvisioningErrors": []
+      },
+      {
+        "id": "ff2c04f5-b3d4-43d3-8b03-73f6e1019438",
+        "deletedDateTime": null,
+        "classification": null,
+        "createdDateTime": "2024-10-27T02:31:27Z",
+        "creationOptions": [],
+        "description": "Quilr_all_India_employees",
+        "displayName": "Quilr_all_India_employees",
+        "expirationDateTime": null,
+        "groupTypes": [
+          "Unified"
+        ],
+        "isAssignableToRole": null,
+        "mail": "Quilr_all_India_employees@Quilr.io",
+        "mailEnabled": true,
+        "mailNickname": "Quilr_all_India_employees",
+        "membershipRule": null,
+        "membershipRuleProcessingState": null,
+        "onPremisesDomainName": null,
+        "onPremisesLastSyncDateTime": null,
+        "onPremisesNetBiosName": null,
+        "onPremisesSamAccountName": null,
+        "onPremisesSecurityIdentifier": null,
+        "onPremisesSyncEnabled": null,
+        "preferredDataLocation": null,
+        "preferredLanguage": null,
+        "proxyAddresses": [
+          "SPO:SPO_33a6471d-5040-4e83-a1fa-9191431d6ace@SPO_f6709ce5-b4be-4d43-9001-35867678adb5",
+          "SMTP:Quilr_all_India_employees@Quilr.io",
+          "smtp:Quilr_all_India_employees@Quilr.onmicrosoft.com"
+        ],
+        "renewedDateTime": "2024-10-27T02:31:27Z",
+        "resourceBehaviorOptions": [],
+        "resourceProvisioningOptions": [],
+        "securityEnabled": false,
+        "securityIdentifier": "S-1-12-1-4281074933-1137947604-4134732683-949223905",
+        "theme": null,
+        "uniqueName": null,
+        "visibility": "Private",
+        "onPremisesProvisioningErrors": [],
+        "serviceProvisioningErrors": []
+      }
+    ],
+    "roles": [
+      {
+        "id": "4a5d8f65-41da-4de4-8968-e035b65339cf",
+        "isBuiltIn": true,
+        "isEnabled": true,
+        "isPrivileged": false,
+        "displayName": "Reports Reader",
+        "inheritsPermissionsFrom@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions('4a5d8f65-41da-4de4-8968-e035b65339cf')/inheritsPermissionsFrom",
+        "inheritsPermissionsFrom": [
+          {
+            "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"
+          }
+        ],
+        "roleTemplateId": "4a5d8f65-41da-4de4-8968-e035b65339cf",
+        "assignmentType": null,
+        "description": "",
+        "role_definition": {
+          "isBuiltIn": true,
+          "isEnabled": true,
+          "isPrivileged": false
+        }
+      }
+    ]
+  }
+}

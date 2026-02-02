@@ -1,0 +1,106 @@
+spring:
+  application:
+    name: quilr-entities-service
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+      password: ${REDIS_PASSWORD:superadmin}
+  jackson:
+    default-property-inclusion: NON_ABSENT
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false
+
+  datasource:
+    url: jdbc:postgresql://${PG_HOST:localhost}:${PG_PORT:5433}/${PG_DB:quilr}
+    username: ${PG_USER:postgres}
+    password: ${PG_PASSWORD:postgres}
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: ${DB_MAX_POOL_SIZE:50}
+      minimum-idle: ${DB_MIN_IDLE:10}
+      idle-timeout: 30000
+      max-lifetime: 1800000
+      connection-timeout: 5000
+      leak-detection-threshold: 60000
+    jpa:
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  main:
+    lazy-initialization: true
+
+server:
+  port: ${QUILR_ENTITIES_PORT:8091}
+  compression:
+    enabled: true
+  error:
+    include-exception: true
+    include-stacktrace: always
+
+logging:
+  pattern:
+    file: "{\"time\": \"%d\", \"t\": \"%t\", \"level\": \"%p\", \"class\": \"%logger{1}:%L\", \"log\": \"%msg\"}%n"
+    console: "{\"time\": \"%d\", \"t\": \"%t\", \"level\": \"%p\", \"class\": \"%logger{1}:%L\", \"log\": \"%msg\"}%n"
+  level:
+    root: error
+    org: error
+    com.quilr: trace
+  file:
+    path: logs
+    name: logs/entities.log
+
+management:
+  endpoint:
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+    shutdown:
+      sensitive: false
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+
+# Transformer Pipeline Configuration
+quilr:
+  transformers:
+    # Master switch - set to true to enable transformation pipeline
+    # If false, consumer will only log messages (legacy behavior)
+    enabled: true
+    
+    # Vendor-specific configuration
+    vendors:
+      microsoft:
+        enabled: true  # Microsoft transformer is fully implemented
+      okta:
+        enabled: false  # Stub only - not yet implemented
+      ollama:
+        enabled: false  # Stub only - not yet implemented
+      pingidp:
+        enabled: false  # Stub only - not yet implemented
+    
+    # Output configuration
+    output:
+      mode: DATABASE  # Options: LOG, DATABASE, KAFKA, REST_API
+    
+    # Ingestion configuration
+    ingestion:
+      # Validate parent references before inserting child entities
+      validate-parents: true
+      
+      # Skip record if parent entities (tenant/instance) are missing
+      skip-on-missing-parent: true
+      
+      # Process each message completely before moving to next
+      batch-size: 1
+      
+      # Enable transaction management for ingestion
+      enable-transactions: true
