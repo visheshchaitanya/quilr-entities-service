@@ -2,20 +2,26 @@ package com.quilr.transformer.vendor;
 
 import com.quilr.dto.VendorType;
 import com.quilr.transformer.AbstractFabricTransformer;
-import com.quilr.transformer.vendor.ollama.OllamaEntityTransformer;
+import com.quilr.transformer.DynamicEntityTransformer;
 import org.springframework.stereotype.Component;
 
 /**
  * Ollama vendor FabricTransformer.
- * STUB IMPLEMENTATION - Not yet implemented.
+ * Delegates to DynamicEntityTransformer for database-driven entity transformations.
  * 
- * This is registered in the factory to demonstrate the architecture,
- * but all transformation methods throw NotImplementedException.
+ * This is the first-level transformer in the hierarchy:
+ * OllamaFabricTransformer → DynamicEntityTransformer → transformUsers/transformApps
  */
 @Component
 public class OllamaFabricTransformer extends AbstractFabricTransformer {
     
-    public OllamaFabricTransformer(OllamaEntityTransformer entityTransformer) {
+    /**
+     * Constructor that injects dynamic entity transformer.
+     * Spring will auto-wire the DynamicEntityTransformer bean.
+     * 
+     * @param entityTransformer Dynamic entity transformer
+     */
+    public OllamaFabricTransformer(DynamicEntityTransformer entityTransformer) {
         super(VendorType.OLLAMA, entityTransformer);
     }
 }

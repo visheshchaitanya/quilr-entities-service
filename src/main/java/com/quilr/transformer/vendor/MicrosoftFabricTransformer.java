@@ -2,26 +2,26 @@ package com.quilr.transformer.vendor;
 
 import com.quilr.dto.VendorType;
 import com.quilr.transformer.AbstractFabricTransformer;
-import com.quilr.transformer.vendor.microsoft.MicrosoftEntityTransformer;
+import com.quilr.transformer.DynamicEntityTransformer;
 import org.springframework.stereotype.Component;
 
 /**
  * Microsoft vendor FabricTransformer.
- * Delegates to MicrosoftEntityTransformer for entity-specific transformations.
+ * Delegates to DynamicEntityTransformer for database-driven entity transformations.
  * 
  * This is the first-level transformer in the hierarchy:
- * MicrosoftFabricTransformer → MicrosoftEntityTransformer → transformUsers/transformApps
+ * MicrosoftFabricTransformer → DynamicEntityTransformer → transformUsers/transformApps
  */
 @Component
 public class MicrosoftFabricTransformer extends AbstractFabricTransformer {
     
     /**
-     * Constructor that injects Microsoft-specific entity transformer.
-     * Spring will auto-wire the MicrosoftEntityTransformer bean.
+     * Constructor that injects dynamic entity transformer.
+     * Spring will auto-wire the DynamicEntityTransformer bean.
      * 
-     * @param entityTransformer Microsoft entity transformer
+     * @param entityTransformer Dynamic entity transformer
      */
-    public MicrosoftFabricTransformer(MicrosoftEntityTransformer entityTransformer) {
+    public MicrosoftFabricTransformer(DynamicEntityTransformer entityTransformer) {
         super(VendorType.MICROSOFT, entityTransformer);
     }
 }

@@ -16,7 +16,7 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 @Log4j2
 @ComponentScan(basePackages = { "com.quilr"})
-@EntityScan("com.quilr.entities")
+@EntityScan({"com.quilr.entities", "com.quilr.model.mapping"})
 public class EntitiesApp {
 
     public static void main(String[] args) {
